@@ -1,5 +1,13 @@
 <?php
-session_start();
+include('includes/config.php');
+
+$page_title = "Register page";
+$meta_description = "Register page description";
+$meta_keywords = "Digital Transformation,
+Strategic advice,
+Fiber Optic Expertise and Engineering,
+Technical expertise";
+include('includes/header.php');
 
 if(isset($_SESSION['auth']))
 {
@@ -8,7 +16,6 @@ if(isset($_SESSION['auth']))
     exit(0);
 }
 
-include('includes/header.php');
 include('includes/navbar.php');
 ?>
 

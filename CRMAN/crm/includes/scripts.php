@@ -1,7 +1,7 @@
 
     <script src="js/jquery-3.6.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script> 
     <script>
 
     <script src="js/scripts.js"></script>
@@ -14,7 +14,7 @@
             
             $('#summernote').summernote({
                 placeholder: 'Type your description',
-                height: 100
+                height: 300
             });
 
             $('.dropdown-toggle').dropdown();

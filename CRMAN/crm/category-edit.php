@@ -44,7 +44,7 @@ include('includes/header.php');
                                     </div>
                                     <div class="col-md-12 mb-3">
                                         <label for="">Description</label>
-                                        <textarea name="description" required class="form-control" rows="4"><?= $row['description'] ?></textarea>
+                                        <textarea name="description" id="summernote" required class="form-control" rows="4"><?= $row['description'] ?></textarea>
                                     </div>
                                     <div class="col-md-12 mb-3">
                                         <label for="">Meta Title</label>

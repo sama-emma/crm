@@ -1,5 +1,13 @@
 <?php
-session_start();
+include('includes/config.php');
+
+$page_title = "Login page";
+$meta_description = "Login page description";
+$meta_keywords = "Digital Transformation,
+Strategic advice,
+Fiber Optic Expertise and Engineering,
+Technical expertise";
+include('includes/header.php');
 
 if(isset($_SESSION['auth']))
 {
@@ -10,10 +18,8 @@ if(isset($_SESSION['auth']))
     exit(0);
 }
 
-include('includes/header.php');
 include('includes/navbar.php');
 ?>
-
 
 <div class="py-5">
     <div class="container">

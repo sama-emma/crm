@@ -80,7 +80,7 @@ include('includes/header.php');
                                         </div>
                                         <div class="col-md-12 mb-3">
                                             <label for="">Description</label>
-                                            <textarea name="description" id="summernote" required class="form-control" rows="4"><?= $post_row['description'] ?></textarea>
+                                            <textarea name="description" id="summernote" required class="form-control" rows="4"><?= htmlentities($post_row['description']); ?></textarea>
                                         </div>
                                         <div class="col-md-12 mb-3">
                                             <label for="">Meta Title</label>
